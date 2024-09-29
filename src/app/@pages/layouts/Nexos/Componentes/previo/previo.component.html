@@ -1,0 +1,47 @@
+
+<div class="header_waves">
+  <!--Content before waves-->
+  <div class="inner-header_waves flex_waves">
+    <img class="mt-5" src="./assets/img/logo_redondo.png">
+  </div>
+  <div class="button-acces_waves">
+    <span class="title-text">
+      {{residential}}
+    </span>
+    <label class="text-content">
+        BIENVENIDO A LA {{name}}
+        <br>
+        El ingreso web se iniciará a las {{texto}}
+      </label>
+  </div>
+
+  <!-- The SVG filter used to create the merging effect -->
+  <svg id="filters_waves">
+      <defs>
+          <filter id="threshold_waves">
+              <!-- Basically just a threshold_waves effect - pixels with a high enough opacity are set to full opacity, and all other pixels are set to completely transparent. -->
+              <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                  0 1 0 0 0
+                  0 0 1 0 0
+                  0 0 0 255 -140" />
+          </filter>
+      </defs>
+  </svg>
+  <!--Waves Container-->
+  <div>
+      <svg class="waves_content_waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+          <defs>
+              <path id="gentle-wave"
+                  d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+          </defs>
+          <g class="parallax">
+              <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+              <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+              <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+              <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+          </g>
+      </svg>
+  </div>
+  <!--Waves end-->
+</div>

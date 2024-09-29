@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+        * {
+            font-family: "Nunito", sans-serif;
+
+        }
+
+        /* font-family: 'Lato', sans-serif; */
+        :root {
+            --primary: #290e07;
+            --secondary: #bf4d18;
+            --dark: #290e07;
+            --light: #f4f4f4;
+            --success: #5cb85c;
+            --danger: #d9534f;
+        }
+
+        body {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-family: "Nunito", sans-serif;
+            font-size: 87px;
+            font-weight: bolder;
+            z-index: 1;
+            letter-spacing: 2px;
+            font-size: 48px;
+        }
+
+
+        h1,
+        a {
+            text-decoration: none;
+            color: white;
+            text-shadow: #333333;
+            position: relative;
+        }
+
+        p {
+            font-family: "Nunito", sans-serif;
+            letter-spacing: 1px;
+            font-size: 11px;
+            color: #FFFF;
+        }
+
+        .header_waves {
+            position: relative;
+            text-align: center;
+            background: #080729;
+            background: linear-gradient(90deg, #a6a6a6 0%, #837a7a 43%, #414040 100%);
+            color: white;
+
+        }
+
+        .inner-header_waves {
+            height: 50vh;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .button-acces_waves {
+            height: 40px;
+            margin: -95px 0 0;
+            position: relative;
+        }
+
+        .button-acces_waves a,
+        img {
+            width:220px;
+        }
+
+        .button-acces_waves a,
+        img:hover {
+            transform:scale(1.1);
+            margin: -20px 0 0;
+        }
+
+
+
+        .button-acces_waves i:active {
+            opacity: 0.6;
+            -webkit-animation: spin 0.2s linear infinite;
+            -moz-animation: spin 0.2s linear infinite;
+            animation: spin 0.2s linear infinite;
+        }
+
+        @-moz-keyframes spin {
+            100% {
+                -moz-transform: rotate(360deg);
+            }
+        }
+
+        @-webkit-keyframes spin {
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        @keyframes spin {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        .content-site {
+            background: white;
+            display: flex_waves;
+            flex_waves-wrap: wrap;
+            position: relative;
+
+        }
+
+
+        #container {
+            position: absolute;
+            margin: auto;
+            width: 100vw;
+            height: 80pt;
+            top: 0;
+            bottom: 0;
+
+            filter: url(#threshold_waves) blur(0.6px);
+        }
+
+        #text1_waves,
+        #text2_waves {
+            font-family: "Nunito", sans-serif;
+            font-size: 80pt;
+            text-align: center;
+            align-items: center;
+            position: absolute;
+        }
+
+        .flex_waves {
+            display: flex_waves;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .waves {
+            position: relative;
+            width: 100%;
+            height: 20vh;
+            margin-bottom: -7px;
+            min-height: 100px;
+            max-height: 150px;
+
+        }
+
+        .content {
+            position: relative;
+            height: 20vh;
+            text-align: center;
+
+        }
+
+        /* Animation */
+
+        .parallax>use {
+            animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+        }
+
+        .parallax>use:nth-child(1) {
+            animation-delay: -2s;
+            animation-duration: 7s;
+        }
+
+        .parallax>use:nth-child(2) {
+            animation-delay: -3s;
+            animation-duration: 10s;
+        }
+
+        .parallax>use:nth-child(3) {
+            animation-delay: -4s;
+            animation-duration: 13s;
+        }
+
+        .parallax>use:nth-child(4) {
+            animation-delay: -5s;
+            animation-duration: 20s;
+        }
+
+        @keyframes move-forever {
+            0% {
+                transform: translate3d(-90px, 0, 0);
+            }
+
+            100% {
+                transform: translate3d(85px, 0, 0);
+            }
+        }
+
+        /* mobile*/
+        @media (max-width: 768px) {
+            .waves {
+                height: 30vh;
+                min-height: 40px;
+            }
+
+            .content {
+                height: 30vh;
+            }
+
+            h1 {
+                font-size: 44px;
+            }
+        }
+
+
+        .fa-arrow-circle-right {
+            color: #fff;
+        }
+
+        @media (max-width: 780px) {
+
+            #text1_waves,
+            #text2_waves {
+                font-size: 65pt;
+            }
+        }
+
+        @media (max-width: 560px) {
+
+            #text1_waves,
+            #text2_waves {
+                font-size: 45pt;
+            }
+        }
+
+        @media (max-width: 400px) {
+
+            #text1_waves,
+            #text2_waves {
+                font-size: 35pt;
+            }
+        }
+
+        .title-text {
+            font-family: "Nunito", sans-serif;
+            font-size: 2.5vw;
+            font-weight: 600;
+            color: #fffefe;
+            line-height: 40px;
+           
+            
+         }
+         
+         .text-content {
+            font-family: "Nunito", sans-serif;
+            font-size: 2.3vw;
+            font-weight: 500;
+            color: #ffffff;
+            text-transform: uppercase;
+            width: 80%;
+            line-height : 40px;
+           
+         }
+
+         @media (max-width: 1120px) {
+            .title-text {
+                font-size: 3vw;
+                line-height: 28px;
+            }
+            .text-content {
+                font-size: 2.8vw;
+                line-height : 29px;
+            }
+            .inner-header_waves{
+                height: 50vh;
+            }
+            .button-acces_waves{
+                height: 100px;
+            }
+        }
+
+         @media (max-width: 780px) {
+            .title-text {
+                font-size: 4.5vw;
+                line-height: 32px;
+            }
+            .text-content {
+                font-size: 3vw;
+                line-height : 28px;
+            }
+            .inner-header_waves{
+                height: 50vh;
+            }
+            .button-acces_waves{
+                height: 100px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .title-text {
+                font-size: 4vw;
+                line-height: 17px;
+            }
+            .text-content {
+                font-size: 3vw;
+                line-height : 16px;
+            }
+            .inner-header_waves{
+                height: 55vh;
+            }
+            .button-acces_waves{
+                height: 100px;
+            }
+        }
+
+         
+         
+      
+      

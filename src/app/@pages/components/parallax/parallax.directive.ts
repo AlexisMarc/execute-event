@@ -1,5 +1,5 @@
 import { Directive,ElementRef,HostListener,Renderer2 } from '@angular/core';
-declare var pg: any;
+//declare var pg: any;
 
 @Directive({
   selector: '[pg-parallax]'

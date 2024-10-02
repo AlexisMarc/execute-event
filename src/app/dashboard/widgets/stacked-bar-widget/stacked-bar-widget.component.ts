@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy, ViewEncapsulation } from '@angular/core';
-declare var pg: any;
+//declare var pg: any;
 
 @Component({
   selector: 'stacked-bar-widget',

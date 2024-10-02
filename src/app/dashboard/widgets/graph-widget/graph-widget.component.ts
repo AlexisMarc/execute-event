@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy, ViewChild, ElementRef, Input, ViewEncapsulation } from '@angular/core';
 import { GraphWidgetService } from './graph-widget.service';
-declare var pg: any;
+//declare var pg: any;
 declare let d3: any;
 
 @Component({

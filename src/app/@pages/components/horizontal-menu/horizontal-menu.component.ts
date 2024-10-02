@@ -10,7 +10,7 @@ import {
   trigger,
 } from '@angular/animations';
 import { pagesToggleService } from '../../services/toggler.service'
-declare var pg: any;
+//declare var pg: any;
 @Component({
   selector: 'pg-horizontal-menu',
   templateUrl: './horizontal-menu.component.html',

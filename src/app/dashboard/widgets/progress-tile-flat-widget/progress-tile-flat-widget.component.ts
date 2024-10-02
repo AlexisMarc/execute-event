@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef, Input } from '@angular/core';
-declare var pg: any;
+//declare var pg: any;
 
 @Component({
   selector: 'progress-tile-flat-widget',

@@ -1,5 +1,5 @@
 import { Component, OnInit,Input } from '@angular/core';
-declare var pg: any;
+//declare var pg: any;
 
 @Component({
   selector: 'pg-container',

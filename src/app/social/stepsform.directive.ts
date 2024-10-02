@@ -1,5 +1,5 @@
 import { Directive, ElementRef, Renderer2, Input, HostListener } from '@angular/core';
-declare var pg: any;
+//declare var pg: any;
 declare var stepsForm: any;
 
 @Directive({

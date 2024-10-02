@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { RootbuilderComponent } from '../rootbuilder/rootbuilder.component';
-declare var pg: any;
+//declare var pg: any;
 @Component({
   selector: 'app-simplywhite-builder',
   templateUrl: './simplywhite-builder.component.html',

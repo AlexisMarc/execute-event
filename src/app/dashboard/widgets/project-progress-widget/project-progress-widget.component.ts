@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-declare var pg: any;
+//declare var pg: any;
 
 @Component({
   selector: 'project-progress-widget',

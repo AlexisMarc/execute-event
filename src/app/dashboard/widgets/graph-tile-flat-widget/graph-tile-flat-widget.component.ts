@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy, Input, ViewEncapsulation } from '@angular/core';
-declare var pg: any;
+//declare var pg: any;
 
 
 @Component({

@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy, ViewChild, ElementRef, Input } from '@angular/core';
 import { MapWidgetService } from './map-widget.service';
-declare var pg: any;
+//declare var pg: any;
 declare var echarts: any;
 
 @Component({

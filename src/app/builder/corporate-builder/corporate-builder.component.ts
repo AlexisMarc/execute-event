@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { RootbuilderComponent } from '../rootbuilder/rootbuilder.component';
-declare var pg: any;
+//declare var pg: any;
 @Component({
   selector: 'app-corporate-builder',
   templateUrl: './corporate-builder.component.html',

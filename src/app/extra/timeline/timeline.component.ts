@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import {NgsRevealConfig} from 'ng-scrollreveal';
-declare var pg: any;
+//declare var pg: any;
 @Component({
   selector: 'app-timeline',
   templateUrl: './timeline.component.html',

@@ -13,7 +13,7 @@ import { toBoolean } from "../../../../components/util/convert";
 
 declare var swal: any;
 declare var bootstrap: any;
-declare var pg: any;
+//declare var pg: any;
 
 @Component({
   selector: "app-dashboard",

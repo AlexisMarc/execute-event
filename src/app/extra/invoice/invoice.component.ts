@@ -1,5 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-declare var pg: any;
+//declare var pg: any;
 @Component({
   selector: 'app-invoice',
   templateUrl: './invoice.component.html',

@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy, ViewChild, ElementRef, ViewEncapsulation } from '@angular/core';
-declare var pg: any;
+//declare var pg: any;
 declare let d3: any;
 import { pgSwitchModule } from '../../../@pages/components/switch/switch.module';
 

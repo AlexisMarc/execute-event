@@ -2,7 +2,7 @@ import { Component, OnInit, OnDestroy, ViewEncapsulation,ViewChild, ElementRef }
 import { HttpClient } from '@angular/common/http';
 import { ChartService } from './charts.service';
 declare let d3: any;
-declare var pg: any;
+//declare var pg: any;
 
 @Component({
   selector: 'charts-page',

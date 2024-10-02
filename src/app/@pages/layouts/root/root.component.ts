@@ -17,7 +17,7 @@ import { WebStorageService, SESSION_STORAGE } from 'angular-webstorage-service';
 import { Globals } from '../Nexos/interface/globals.model';
 import { Subscription } from 'rxjs';
 
-declare var pg: any;
+//declare var pg: any;
 declare var swal: any;
 
 @Component({

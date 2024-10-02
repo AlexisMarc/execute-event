@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy, ViewEncapsulation } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { GraphWidgetService } from './graph-widget.service';
-declare var pg: any;
+//declare var pg: any;
 declare let d3: any;
 
 @Component({

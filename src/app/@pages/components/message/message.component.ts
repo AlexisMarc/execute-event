@@ -15,7 +15,7 @@ import {
 import { MessageConfig } from './message-config';
 import { MessageContainerComponent } from './message-container.component';
 import { MessageDataFilled, MessageDataOptions } from './message.definitions';
-declare var pg: any;
+//declare var pg: any;
 
 
 @Component({

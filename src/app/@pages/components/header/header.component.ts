@@ -1,6 +1,6 @@
 import { Component, OnInit,OnDestroy, Inject,forwardRef,Input } from '@angular/core';
 import { pagesToggleService } from '../../services/toggler.service'
-declare var pg: any;
+//declare var pg: any;
 @Component({
   selector: 'pg-header',
   templateUrl: './header.component.html',

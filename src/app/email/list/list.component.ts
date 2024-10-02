@@ -9,7 +9,7 @@ import Quill from 'quill';
 import { PerfectScrollbarConfigInterface,
   PerfectScrollbarComponent, PerfectScrollbarDirective } from 'ngx-perfect-scrollbar';
 
-declare var pg: any;
+//declare var pg: any;
 
 @Component({
   selector: 'email-list',

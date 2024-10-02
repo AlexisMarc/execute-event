@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { pagesToggleService } from '../../@pages/services/toggler.service'
-declare var pg: any;
+//declare var pg: any;
 @Component({
   selector: 'app-boxed',
   templateUrl: './boxed.component.html',

@@ -10,7 +10,7 @@ import swal from 'sweetalert2';
 import { Subscription } from 'rxjs';
 
 
-declare var pg: any;
+//declare var pg: any;
 
 
 @Component({

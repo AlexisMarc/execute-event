@@ -10,7 +10,7 @@ import {
 
 import {SocialService} from './social.service';
 declare var stepsForm: any;
-declare var pg: any;
+//declare var pg: any;
 
 @Component({
   selector: 'app-social',

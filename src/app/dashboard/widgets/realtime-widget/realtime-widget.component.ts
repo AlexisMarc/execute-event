@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy, ViewChild, ElementRef, ViewEncapsulation } from '@angular/core';
 import { time } from 'd3';
-declare var pg: any;
+//declare var pg: any;
 declare let d3: any;
 
 @Component({
